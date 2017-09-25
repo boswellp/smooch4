@@ -108,7 +108,7 @@
                 if (!t) {
                     t = !0, delete A.onload;
                     var e = A.contentWindow.document;
-                    e.open(), e.write('\n<!DOCTYPE html>\n<html>\n<head>\n<link rel="stylesheet" href="https://cdn.rawgit.com/boswellp/smooch4/master/smooch_4_0_0_frame.css" type="text/css" />\n<script src="https://cdn.rawgit.com/boswellp/smooch4/master/smooch_4_0_0_frame.js" async crossorigin="anonymous"><\/script>\n</head>\n<body>\n<div id="mount"></div>\n</body>\n</html>\n'), e.close()
+                    e.open(), e.write('\n<!DOCTYPE html>\n<html>\n<head>\n<link rel="stylesheet" href="https://cdn.rawgit.com/boswellp/smooch4/master/smooch_4_0_0a_frame.css" type="text/css" />\n<script src="https://cdn.rawgit.com/boswellp/smooch4/master/smooch_4_0_0a_frame.js" async crossorigin="anonymous"><\/script>\n</head>\n<body>\n<div id="mount"></div>\n</body>\n</html>\n'), e.close()
                 }
             }
         }
