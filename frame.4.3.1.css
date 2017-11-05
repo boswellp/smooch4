@@ -1646,14 +1646,26 @@ fieldset[disabled] .btn-reply-action:hover {
     vertical-align: baseline
 }
 
+/* mine orig !
+* #conversation .from {
+*    white-space: nowrap;
+*    top: -20px;
+*    font-size: 12px;
+*    color: #787f8c;
+*    padding-left: 12px;
+*    margin-bottom: 2px;
+*    margin-left: 45px
+*}
+*/
+
 #conversation .from {
     white-space: nowrap;
     top: -20px;
-    font-size: 12px;
-    color: #787f8c;
-    padding-left: 12px;
-    margin-bottom: 2px;
-    margin-left: 45px
+    font-size: 0px;
+    color: #ffffff;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
 }
 
 #conversation .connect-notification {
