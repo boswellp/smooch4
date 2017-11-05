@@ -1416,8 +1416,13 @@ fieldset[disabled] .btn-reply-action:hover {
     border-radius: 14px;
     border-left-color: #00aeff;
     transition: opacity .15s;
-    word-break: break-word
+    word-break: break-word;
+    width: 100%
 }
+
+/*!
+ * mine added width
+ */
 
 #conversation .row .msg-wrapper .msg-image .imageloader,
 #conversation .row .msg-wrapper .msg .imageloader {
@@ -1491,8 +1496,14 @@ fieldset[disabled] .btn-reply-action:hover {
 #conversation .row .msg-wrapper .action a.btn {
     display: block;
     border-radius: 7px;
-    margin-right: 8px;
-    margin-left: 8px
+    margin-right: 0px;
+    margin-left: 0px
+}
+
+/*!
+ * mine added margin-right: 0px replacing margin-right: 8px
+ * mine added margin-left: 0px replacing margin-left: 8px
+ */
 }
 
 #conversation .row .msg-wrapper .message-text {
@@ -1539,8 +1550,12 @@ fieldset[disabled] .btn-reply-action:hover {
 #conversation .row.left-row .msg-wrapper .msg-image {
     background-color: #f4f4f4;
     color: #424242;
-    max-width: 200px
+    max-width: 100%
 }
+
+/*!
+ * mine added max-width: 100% repalcing max-width: 200px
+ */
 
 #conversation .row.left-row .msg-wrapper .msg-image:after,
 #conversation .row.left-row .msg-wrapper .msg:after {
@@ -1716,13 +1731,18 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 .msg-avatar {
-    width: 31px;
-    height: 31px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     margin-right: 5px;
     display: inline-block;
     margin-left: 9px
 }
+
+/*!
+ * mine added width: 0px replacing width: 31px
+ * mine added height: 0px replacing height: 31px
+ */
 
 .msg-avatar.msg-avatar-img {
     margin-bottom: 0
