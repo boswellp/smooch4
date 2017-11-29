@@ -604,8 +604,13 @@ th {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ff0000
 }
+
+/*!
+ *  mine added background-color to fa for footer
+ */
 
 .fa-envelope-o:before {
     content: "\F003"
@@ -2041,13 +2046,11 @@ fieldset[disabled] .btn-reply-action:hover {
     display: inline-block;
     padding: 15px 0px;
     font-size: 14px;
-    line-height: 14px;
-    background-color: #ff0000
+    line-height: 14px
 }
 
 /*! 
 * #footer .image-upload:hover {color: #00aeff} 
-* mine added background color
 * mine changed     padding: 15px 10px; to     padding: 15px 0px;
 */
 
