@@ -2028,10 +2028,13 @@ fieldset[disabled] .btn-reply-action:hover {
     border: none;
     box-shadow: 0 -1px 3px rgba(0, 0, 0, .1);
     background-color: #fff;
-    z-index: 1;
-    display: -ms-flexbox;
-    display: flex
+    z-index: 1
 }
+
+/*!
+ * mine remove (camera form)     display: -ms-flexbox;
+ * mine remove                   display: flex
+ */
 
 #footer .image-upload {
     height: 0px;
