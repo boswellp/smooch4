@@ -605,7 +605,8 @@ th {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #ff0000
+    background-color: #ff0000;
+    color: #ff0000
 }
 
 /*!
@@ -624,13 +625,20 @@ th {
     content: "\F00D"
 }
 
+
 .fa-arrow-left:before {
     content: "\F060"
 }
 
 .fa-camera:before {
-    content: "\F030"
+    content: "\F030";
+    background-color: #ff0000;
+    color: #ff0000
 }
+
+/*!
+ *  mine added color to fa for footer
+ */
 
 .fa-angle-right:before {
     content: "\F105"
@@ -2049,8 +2057,10 @@ fieldset[disabled] .btn-reply-action:hover {
     line-height: 14px
 }
 
+#footer .image-upload:hover {color: #ff0000} 
+
 /*! 
-* #footer .image-upload:hover {color: #00aeff} 
+* #footer .image-upload:hover {color: #00aeff} putbthis back in red
 * mine changed     padding: 15px 10px; to     padding: 15px 0px;
 */
 
