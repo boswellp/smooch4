@@ -2047,7 +2047,9 @@ fieldset[disabled] .btn-reply-action:hover {
     line-height: 14px
 }
 
-/*! #footer .image-upload:hover {color: #00aeff} */
+/*! 
+* #footer .image-upload:hover {color: #00aeff} 
+*/
 
 /*!
  * camera size set to tero and hover to nothing
@@ -2075,14 +2077,15 @@ fieldset[disabled] .btn-reply-action:hover {
  */
 
 #footer .input-container.no-upload {
-    padding: 5px 0 5px 9px
+    padding: 5px 0 5px 9px;
+    border-style: 1px solid #b2b2b2;
+    border-radius: 5px
 }
 
 #footer .input-container .message-input {
     width: 100%;
     -webkit-appearance: none;
-    border-style: 1px solid #b2b2b2;
-    border-radius: 5px
+
 }
 
 #footer .input-container .message-input::-ms-clear {
