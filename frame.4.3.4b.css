@@ -1576,11 +1576,11 @@ fieldset[disabled] .btn-reply-action:hover {
     background-color: #00aeff;
     float: right;
     color: #fff;
-    max-width: 50%
+    max-width: 100%
 }
 
 /*!
- * mine added max-width: 50% replacing max-width: 204px
+ * mine added max-width: 100% replacing max-width: 204px
  */
 
 
