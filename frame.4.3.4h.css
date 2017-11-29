@@ -1567,11 +1567,13 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #conversation .row .msg-wrapper .message-text {
     display: inline-block;
-    max-width: 100%
+    max-width: 100%;
+    width: 100%
 }
 
 /*!
  * mine added max-width: 100% replacing max-width: 204px
+ * mine added width: 100%
  */
 
 #conversation .row .msg-wrapper .message-item {
