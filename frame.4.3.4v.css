@@ -2086,6 +2086,15 @@ fieldset[disabled] .btn-reply-action:hover {
 
 }
 
+input  {
+    border-style: 1px solid #b2b2b2;
+    border-radius: 5px
+}
+
+/*!
+ * added input
+ */
+
 #footer .input-container .message-input::-ms-clear {
     display: none;
     border-style: 1px solid #b2b2b2;
