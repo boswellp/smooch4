@@ -7,8 +7,8 @@ See https://github.com/smooch/smooch-web
 
 See https://github.com/smooch/smooch-docs/blob/master/pages/guide/web-messenger.md
 
-Get https://cdn.smooch.io/frame.4.3.1.min.js
+Get https://cdn.smooch.io/frame.4.3.4.min.js
 
-Get https://cdn.smooch.io/frame.4.3.1.css
+Get https://cdn.smooch.io/frame.4.3.4.css
 
 If css is changed, need to change name of css and js
