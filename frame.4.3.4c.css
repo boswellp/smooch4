@@ -1562,7 +1562,7 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #conversation .row .msg-wrapper .message-text {
     display: inline-block;
-    max-width: 204px
+    max-width: 100%
 }
 
 /*!
