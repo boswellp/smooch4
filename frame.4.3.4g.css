@@ -1823,11 +1823,11 @@ fieldset[disabled] .btn-reply-action:hover {
 .msg-avatar-placeholder {
     width: 0px;
     display: inline-block;
-    margin-right: 0px
+    margin-right: 10px
 }
 
 /*!
- * mine     margin-right: 10px replaced by margin-right: 0px
+ * mine     margin-right: 10px is orig. May need to change
  * mine     width: 35px; replaced by width: 0px;
 
  */
