@@ -2029,13 +2029,10 @@ fieldset[disabled] .btn-reply-action:hover {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, .1);
     background-color: #fff;
     z-index: 1;
-    display: -ms-flexbox
+    display: -ms-flexbox;
+    display: flex
 }
 
-/*!
- * mine remove (camera form)     display: -ms-flexbox;
- * mine remove                   display: flex
- */
 
 #footer .image-upload {
     height: 0px;
@@ -2069,12 +2066,8 @@ fieldset[disabled] .btn-reply-action:hover {
 #footer .input-container {
     padding: 5px 0;
     display: block;
-    width: 100%
 }
 
-/*!
- * mine added width:100%
- */
 
 #footer .input-container.no-upload {
     padding: 5px 0 5px 9px;
@@ -2086,25 +2079,14 @@ fieldset[disabled] .btn-reply-action:hover {
 
 }
 
-input  {
-    border-style: 1px solid #b2b2b2;
-    border-radius: 5px
-}
 
-/*!
- * added input
- */
 
 #footer .input-container .message-input::-ms-clear {
-    display: none;
-    border-style: 1px solid #b2b2b2;
-    border-radius: 5px
+    display: none
 }
 
 #footer .input-container .message-input:-ms-input-placeholder {
-    color: #b2b2b2;
-    border-style: 1px solid #b2b2b2;
-    border-radius: 5px
+    color: #b2b2b2
 }
 
 #footer .send {
