@@ -1567,23 +1567,28 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #conversation .row .msg-wrapper .message-text {
     display: inline-block;
-    max-width: 100%;
+    max-width: 50%;
     width: 50%
 }
 
 /*!
  * trying to get green input to half width
- * mine added max-width: 100% replacing max-width: 204px
+ * mine added max-width: 50% replacing max-width: 204px
  * mine added width: 50%
  */
 
 #conversation .row .msg-wrapper .message-item {
     padding: 8px 13px 0px 0px;
-    line-height: 1.3
+    line-height: 1.3;
+    max-width: 50%;
+    width: 50%
 }
 
 /*!
  * mine     padding: 8px 13px 0px 0px; replacing 8px 13px 0;
+ * trying to get green input to half width
+ * mine added max-width: 50%
+ * mine added width: 50%
  */
 
 #conversation .row .msg-wrapper .last-item {
