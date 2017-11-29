@@ -1362,30 +1362,59 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #conversation .row.row-appmaker-first:not(.row-appmaker-last) .msg-wrapper .msg,
 #conversation .row.row-appmaker-first:not(.row-appmaker-last) .msg-wrapper .msg-image {
-    border-bottom-left-radius: 2px
+    border-bottom-left-radius: 2px;
+    width:100%;
+    max-width:100%;
 }
+}
+
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
 
 
 #conversation .row.row-appmaker-middle .msg-wrapper .msg,
 #conversation .row.row-appmaker-middle .msg-wrapper .msg-image {
     border-bottom-left-radius: 2px;
-    border-top-left-radius: 2px
+    border-top-left-radius: 2px;
+    width:100%;
+    max-width:100%;
 }
 
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
+
 #conversation .row.row-appmaker-last {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    width:100%;
+    max-width:100%;
 }
+
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
 
 #conversation .row.row-appmaker-last:not(.row-appmaker-first) .msg-wrapper .msg,
 #conversation .row.row-appmaker-last:not(.row-appmaker-first) .msg-wrapper .msg-image {
-    border-top-left-radius: 2px
+    border-top-left-radius: 2px;
+    width:200px;
+    max-width:200px
 }
+
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
 
 #conversation .row.row-appuser-first:not(.row-appuser-last) .msg-wrapper .msg,
 #conversation .row.row-appuser-first:not(.row-appuser-last) .msg-wrapper .msg-image {
     border-bottom-right-radius: 2px;
-    width:200px;
-    max-width:200px
+    width:100%;
+    max-width:100%;
 }
 
 /*!
@@ -1396,18 +1425,32 @@ fieldset[disabled] .btn-reply-action:hover {
 #conversation .row.row-appuser-middle .msg-wrapper .msg,
 #conversation .row.row-appuser-middle .msg-wrapper .msg-image {
     border-bottom-right-radius: 2px;
-    border-top-right-radius: 2px
+    border-top-right-radius: 2px;
+    width:200px;
+    max-width:200px
 }
 
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
+
 #conversation .row.row-appuser-last {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    width:100%;
+    max-width:100%;
 }
+
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
 
 #conversation .row.row-appuser-last:not(.row-appuser-first) .msg-wrapper .msg,
 #conversation .row.row-appuser-last:not(.row-appuser-first) .msg-wrapper .msg-image {
     border-top-right-radius: 2px;
-    width:200px;
-    max-width:200px
+    width:100%;
+    max-width:100%;
 }
 
 /*!
