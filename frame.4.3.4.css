@@ -1416,8 +1416,13 @@ fieldset[disabled] .btn-reply-action:hover {
     border-radius: 14px;
     border-left-color: #00aeff;
     transition: opacity .15s;
-    word-break: break-word
+    word-break: break-word;
+    width: 50%
 }
+
+/*!
+ * mine added width
+ */
 
 #conversation .row .msg-wrapper .msg-image .imageloader,
 #conversation .row .msg-wrapper .msg .imageloader {
@@ -1484,9 +1489,14 @@ fieldset[disabled] .btn-reply-action:hover {
     white-space: inherit;
     transition: width .1s;
     border-radius: 7px;
-    margin-right: 8px;
-    margin-left: 8px
+    margin-right: 0px;
+    margin-left: 0px
 }
+
+/*!
+ * mine added margin-right: 0px replacing margin-right: 8px
+ * mine added margin-left: 0px replacing margin-left: 8px
+ */
 
 #conversation .row .msg-wrapper .action:last-child {
     margin-bottom: 0
@@ -1562,8 +1572,14 @@ fieldset[disabled] .btn-reply-action:hover {
     background-color: #00aeff;
     float: right;
     color: #fff;
-    max-width: 204px
+    max-width: 50%
 }
+
+/*!
+ * mine added max-width: 50% replacing max-width: 204px
+ */
+
+
 
 #conversation .row.right-row .msg-wrapper .msg-image:after,
 #conversation .row.right-row .msg-wrapper .msg:after {
@@ -1643,14 +1659,26 @@ fieldset[disabled] .btn-reply-action:hover {
     vertical-align: baseline
 }
 
+/* mine orig !
+* #conversation .from {
+*    white-space: nowrap;
+*    top: -20px;
+*    font-size: 12px;
+*    color: #787f8c;
+*    padding-left: 12px;
+*    margin-bottom: 2px;
+*    margin-left: 45px
+*}
+*/
+
 #conversation .from {
     white-space: nowrap;
     top: -20px;
-    font-size: 12px;
-    color: #787f8c;
-    padding-left: 12px;
-    margin-bottom: 2px;
-    margin-left: 45px
+    font-size: 0px;
+    color: #ffffff;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
 }
 
 #conversation .connect-notification {
@@ -1701,13 +1729,18 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 .msg-avatar {
-    width: 31px;
-    height: 31px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     margin-right: 5px;
     display: inline-block;
     margin-left: 9px
 }
+
+/*!
+ * mine added width: 0px replacing width: 31px
+ * mine added height: 0px replacing height: 31px
+ */
 
 .msg-avatar.msg-avatar-img {
     margin-bottom: 0
