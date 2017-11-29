@@ -2034,18 +2034,20 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 #footer .image-upload {
-    height: 45px;
-    width: 35px;
-    color: #b2b2b2;
+    height: 0px;
+    width: 0px;
+    color: #ffffff;
     display: inline-block;
     padding: 15px 10px;
     font-size: 14px;
     line-height: 14px
 }
 
-#footer .image-upload:hover {
-    color: #00aeff
-}
+/*! #footer .image-upload:hover {color: #00aeff} */
+
+/*!
+ * camera size set to tero and hover to nothing
+ */
 
 #footer input[type=file] {
     position: fixed;
