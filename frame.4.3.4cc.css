@@ -604,14 +604,9 @@ th {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #95c9ab;
-    color: #95c9ab
+    -moz-osx-font-smoothing: grayscale
 }
 
-/*!
- *  mine added background-color to fa for footer
- */
 
 .fa-envelope-o:before {
     content: "\F003"
