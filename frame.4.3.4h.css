@@ -1617,11 +1617,13 @@ fieldset[disabled] .btn-reply-action:hover {
 #conversation .row.left-row .msg-wrapper .msg-image {
     background-color: #f4f4f4;
     color: #424242;
-    max-width: 100%
+    max-width: 100%;
+    width: 100%
 }
 
 /*!
  * mine repalced max-width: 200px with max-width: 100%
+ * mine added width: 100%
  */
 
 #conversation .row.left-row .msg-wrapper .msg-image:after,
