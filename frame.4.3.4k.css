@@ -1567,14 +1567,13 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #conversation .row .msg-wrapper .message-text {
     display: inline-block;
-    padding: 0px 5px 0px 5px;
-
 }
 
 /*!
  * trying to get green input to half width
  * mine REMOVED added max-width: 50% replacing max-width: 204px
  * mine REMOVED added width: 50%
+ * mine cannot add padding
  */
 
 #conversation .row .msg-wrapper .message-item {
