@@ -1383,8 +1383,8 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 /*!
- * mine added width:200px
- * mine added max-width: 200px
+ * mine added width:100%
+ * mine added max-width: 100%
  */
 
 #conversation .row.row-appmaker-last {
@@ -1394,20 +1394,20 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 /*!
- * mine added width:200px
- * mine added max-width: 200px
+ * mine added width:100%
+ * mine added max-width: 100%
  */
 
 #conversation .row.row-appmaker-last:not(.row-appmaker-first) .msg-wrapper .msg,
 #conversation .row.row-appmaker-last:not(.row-appmaker-first) .msg-wrapper .msg-image {
     border-top-left-radius: 2px;
-    width:200px;
-    max-width:200px
+    width:100%;
+    max-width:100%
 }
 
 /*!
- * mine added width:200px
- * mine added max-width: 200px
+ * mine added width:100%
+ * mine added max-width: 100%
  */
 
 #conversation .row.row-appuser-first:not(.row-appuser-last) .msg-wrapper .msg,
@@ -1418,16 +1418,16 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 /*!
- * mine added width:200px
- * mine added max-width: 200px
+ * mine added width:100%
+ * mine added max-width: 100%
  */
 
 #conversation .row.row-appuser-middle .msg-wrapper .msg,
 #conversation .row.row-appuser-middle .msg-wrapper .msg-image {
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
-    width:200px;
-    max-width:200px
+    width:100%;
+    max-width:100%
 }
 
 /*!
@@ -1442,8 +1442,8 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 /*!
- * mine added width:200px
- * mine added max-width: 200px
+ * mine added width:100%
+ * mine added max-width: 100%
  */
 
 #conversation .row.row-appuser-last:not(.row-appuser-first) .msg-wrapper .msg,
@@ -1454,16 +1454,20 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 /*!
- * mine added width:200px
- * mine added max-width: 200px
+ * mine added width:100%
+ * mine added max-width: 100%
  */
 
 #conversation .row .msg-wrapper {
     max-width: 100%;
     position: relative;
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    width:100%
 }
+/*!
+ * mine added width:100%
+ */
 
 #conversation .row .msg-wrapper .msg,
 #conversation .row .msg-wrapper .msg-image {
