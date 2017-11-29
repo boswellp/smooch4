@@ -1365,6 +1365,7 @@ fieldset[disabled] .btn-reply-action:hover {
     border-bottom-left-radius: 2px
 }
 
+
 #conversation .row.row-appmaker-middle .msg-wrapper .msg,
 #conversation .row.row-appmaker-middle .msg-wrapper .msg-image {
     border-bottom-left-radius: 2px;
@@ -1382,8 +1383,15 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #conversation .row.row-appuser-first:not(.row-appuser-last) .msg-wrapper .msg,
 #conversation .row.row-appuser-first:not(.row-appuser-last) .msg-wrapper .msg-image {
-    border-bottom-right-radius: 2px
+    border-bottom-right-radius: 2px;
+    width:200px;
+    max-width:200px
 }
+
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
 
 #conversation .row.row-appuser-middle .msg-wrapper .msg,
 #conversation .row.row-appuser-middle .msg-wrapper .msg-image {
@@ -1397,8 +1405,15 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #conversation .row.row-appuser-last:not(.row-appuser-first) .msg-wrapper .msg,
 #conversation .row.row-appuser-last:not(.row-appuser-first) .msg-wrapper .msg-image {
-    border-top-right-radius: 2px
+    border-top-right-radius: 2px;
+    width:200px;
+    max-width:200px
 }
+
+/*!
+ * mine added width:200px
+ * mine added max-width: 200px
+ */
 
 #conversation .row .msg-wrapper {
     max-width: 100%;
