@@ -1566,7 +1566,9 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 #conversation .row .msg-wrapper .message-text {
-    display: inline-block
+    display: inline-block;
+    margin-left:5px;
+    margin-right:5px
 }
 
 /*!
@@ -1574,6 +1576,7 @@ fieldset[disabled] .btn-reply-action:hover {
  * mine REMOVED added max-width: 50% replacing max-width: 204px
  * mine REMOVED added width: 50%
  * mine padding does not work
+ * mine added margin
  */
 
 #conversation .row .msg-wrapper .message-item {
