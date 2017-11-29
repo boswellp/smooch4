@@ -2078,8 +2078,6 @@ fieldset[disabled] .btn-reply-action:hover {
 
 #footer .input-container.no-upload {
     padding: 5px 0 5px 9px;
-    border-style: 1px solid #b2b2b2;
-    border-radius: 5px
 }
 
 #footer .input-container .message-input {
@@ -2089,11 +2087,15 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 #footer .input-container .message-input::-ms-clear {
-    display: none
+    display: none;
+    border-style: 1px solid #b2b2b2;
+    border-radius: 5px
 }
 
 #footer .input-container .message-input:-ms-input-placeholder {
-    color: #b2b2b2
+    color: #b2b2b2;
+    border-style: 1px solid #b2b2b2;
+    border-radius: 5px
 }
 
 #footer .send {
