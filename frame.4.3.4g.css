@@ -1833,22 +1833,25 @@ fieldset[disabled] .btn-reply-action:hover {
  */
 
 .message-status-indicator {
-    font-weight: 400;
-    color: #b2b2b2;
-    margin-top: 5px
+    color: #ffffff;
+    margin-top: 0px
 }
 
 .message-status-indicator .time {
-    font-size: 12px
+    font-size: 0px
 }
 
 .left-row .message-status-indicator {
-    margin-left: 45px
+    margin-left: 10px
 }
 
 .right-row .message-status-indicator {
     text-align: right
 }
+
+/*!
+ * mine     mmessage-status-indicator changed for no display
+ */
 
 .reply-container {
     text-align: right;
