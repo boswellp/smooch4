@@ -1479,11 +1479,12 @@ fieldset[disabled] .btn-reply-action:hover {
     border-left-color: #00aeff;
     transition: opacity .15s;
     word-break: break-word;
-    width: 100%
+    width: 100%;
+    max-width: 100%
 }
 
 /*!
- * mine added width
+ * mine added width and max-width
  */
 
 #conversation .row .msg-wrapper .msg-image .imageloader,
