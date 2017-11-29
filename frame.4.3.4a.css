@@ -1417,7 +1417,7 @@ fieldset[disabled] .btn-reply-action:hover {
     border-left-color: #00aeff;
     transition: opacity .15s;
     word-break: break-word;
-    width: 50%
+    width: 100%
 }
 
 /*!
