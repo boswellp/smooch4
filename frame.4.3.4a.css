@@ -1507,6 +1507,10 @@ fieldset[disabled] .btn-reply-action:hover {
     max-width: 204px
 }
 
+/*!
+ * mine added max-width: 100% replacing max-width: 204px
+ */
+
 #conversation .row .msg-wrapper .message-item {
     padding: 8px 13px 0;
     line-height: 1.3
