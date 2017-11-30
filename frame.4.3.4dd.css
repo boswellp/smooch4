@@ -1703,10 +1703,12 @@ fieldset[disabled] .btn-reply-action:hover {
     padding-bottom: 10px
 }
 
+
+#conversation .row .__react_component_tooltip {padding: 0px 0px;color: #fff;font-size: 0px;background-color: #ffffff}
+#conversation .row .__react_component_tooltip:after {border-bottom-color: #ffffff}
+#conversation .row .__react_component_tooltip.show {opacity: 0}
+
 /*!
-* #conversation .row .__react_component_tooltip {padding: 0px 0px;color: #fff;font-size: 0px;background-color: #ffffff}
-* #conversation .row .__react_component_tooltip:after {border-bottom-color: #ffffff}
-* #conversation .row .__react_component_tooltip.show {opacity: 1}
 * mine tooltipoff, opacity changed from 1 to 0
 */
 
