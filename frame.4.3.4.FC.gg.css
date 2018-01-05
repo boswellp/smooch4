@@ -1342,6 +1342,14 @@ fieldset[disabled] .btn-reply-action:hover {
     margin-right: 0
 }
 
+/*!
+ * available-channels set to 0 height for fidic charts
+ */
+
+#conversation .available-channels  {
+    height: 0
+}
+
 #conversation .messages-container {
     position: absolute;
     bottom: 0;
