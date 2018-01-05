@@ -1346,8 +1346,9 @@ fieldset[disabled] .btn-reply-action:hover {
  * channel-list .channel-icon set to 0 height for fidic charts
  */
 
-#conversation .channel-list .channel-icon .channel-icon:last-child {
-    height: 0px
+#conversation .available-channels .channel-list .channel-icon .channel-icon:last-child {
+    height: 0px;
+    max-height: 0%
 }
 
 #conversation .messages-container {
