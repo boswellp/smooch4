@@ -1343,10 +1343,10 @@ fieldset[disabled] .btn-reply-action:hover {
 }
 
 /*!
- * channel-lst set to 0 height for fidic charts
+ * channel-list .channel-icon set to 0 height for fidic charts
  */
 
-#conversation .channel-list  {
+#conversation .channel-list .channel-icon .channel-icon:last-child {
     height: 0px
 }
 
