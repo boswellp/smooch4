@@ -1347,7 +1347,7 @@ fieldset[disabled] .btn-reply-action:hover {
  */
 
 #conversation .channel-list  {
-    height: 0
+    height: 0px
 }
 
 #conversation .messages-container {
