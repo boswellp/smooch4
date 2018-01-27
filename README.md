@@ -5,8 +5,6 @@ Other links to FIDICbot use Smooch Web Messenger 3 (these links will be upgraded
 
 See https://github.com/smooch/smooch-web
 
-See https://github.com/smooch/smooch-docs/blob/master/pages/guide/web-messenger.md
-
 Get https://cdn.smooch.io/frame.4.3.4.min.js
 
 Get https://cdn.smooch.io/frame.4.3.4.css
