@@ -4,6 +4,8 @@ I felt at first that one cannot serve the Smooch files from gitraw since there i
 
 See https://github.com/smooch/smooch-web
 
+See https://github.com/smooch/smooch-web/releases for releases
+
 Get https://github.com/smooch/smooch-web/blob/master/smooch.4.5.4.min.js
 
 Get https://cdn.smooch.io/frame.4.4.0.min.js
