@@ -12,5 +12,6 @@ Get https://cdn.smooch.io/frame.4.4.0.min.js
 Latest https://cdn.smooch.io/frame.4.27.10.min.js
 
 Get https://cdn.smooch.io/frame.4.4.0.css
+Latest https://cdn.smooch.io/smooch.4.27.10.css
 
 If css is changed, need to change name of css and js
