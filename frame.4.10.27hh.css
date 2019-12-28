@@ -1,5 +1,5 @@
 /*!
- * smooch 4.27.10gg 
+ * smooch 4.27.10hh 
  * License : https://smooch.io/terms
  * 
  */
@@ -4523,8 +4523,8 @@ html {
 #container #conversation .row.left-row .msg-wrapper .msg-image {
     background-color: #f4f4f4;
     color: #424242;
-    /*!max-width: 70% */
-	max-width: 95%
+    /*!max-width: 70% WIDTH OF TEXT*/
+	max-width: 98%
 }
 
 #container #conversation .row.left-row .msg-wrapper .msg-image.msg-carousel,
@@ -4597,7 +4597,9 @@ html {
 }
 
 #container #conversation .row.right-row {
-    margin-right: 10px
+    margin-right: 10px;
+	/*! GREEN ACTION TEXT WIDTH */
+	width: 100%
 }
 
 #container #conversation .row.right-row .msg-wrapper {
