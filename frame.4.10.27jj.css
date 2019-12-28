@@ -1,5 +1,5 @@
 /*!
- * smooch 4.27.10ii 
+ * smooch 4.27.10jj 
  * License : https://smooch.io/terms
  * 
  */
@@ -4372,16 +4372,18 @@ html {
 
 #container #conversation .row .msg-wrapper .msg,
 #container #conversation .row .msg-wrapper .msg-image {
-    font-size: 14px;
+    font-size: 12px;
     overflow: hidden;
-    line-height: 1.25;
+    line-height: 1.15;
     position: relative;
     border-radius: 14px;
     border-left-color: #00aeff;
     transition: opacity .15s;
     overflow-wrap: break-word;
     word-break: break-word;
-    word-wrap: break-word
+    word-wrap: break-word;
+	/*! FOR WIDTH OF GREEN ACTION TEXT */
+	width: 100%
 }
 
 #container #conversation .row .msg-wrapper .msg-image .imageloader,
