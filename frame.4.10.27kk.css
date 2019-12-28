@@ -1,5 +1,5 @@
 /*!
- * smooch 4.27.10jj 
+ * smooch 4.27.10kk 
  * License : https://smooch.io/terms
  * 
  */
@@ -1424,7 +1424,7 @@ th {
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.42857143;
     border-radius: 4px;
     -webkit-user-select: none;
@@ -4374,7 +4374,7 @@ html {
 #container #conversation .row .msg-wrapper .msg-image {
     font-size: 12px;
     overflow: hidden;
-    line-height: 1.15;
+    line-height: 1.25;
     position: relative;
     border-radius: 14px;
     border-left-color: #00aeff;
@@ -4472,8 +4472,9 @@ html {
     white-space: inherit;
     transition: width .1s;
     border-radius: 7px;
-    margin-right: 8px;
-    margin-left: 8px
+	/*! REMOVE MARGINS FROM BLUE BUTTONS */
+    margin-right: 0px;
+    margin-left: 0px
 }
 
 #container #conversation .row .msg-wrapper .action:last-child {
@@ -5401,8 +5402,9 @@ html {
     white-space: inherit;
     transition: width .1s;
     border-radius: 7px;
-    margin-right: 8px;
-    margin-left: 8px
+	/*! REMOVE MARGINS FROM BUTTONS */
+    margin-right: 0px;
+    margin-left: 0px
 }
 
 .widget-embedded #container #conversation .row .msg-wrapper .action:last-child {
