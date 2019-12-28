@@ -1,5 +1,5 @@
 /*!
- * smooch 4.27.10kk 
+ * smooch 4.27.10mm 
  * License : https://smooch.io/terms
  * 
  */
@@ -4367,8 +4367,8 @@ html {
     display: flex;
     flex-direction: row;
 	width: 100%;
-	margin-left: -2px
-/*! FOR WIDTH AND MARGIN_LEFT OF GREEN ACTION TEXT */
+	margin-left: -4px
+/*! FOR WIDTH AND MARGIN-LEFT OF GREEN ACTION TEXT */
 }
 
 #container #conversation .row .msg-wrapper .msg,
