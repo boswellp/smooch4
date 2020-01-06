@@ -4528,9 +4528,8 @@ html {
 #container #conversation .row.left-row .msg-wrapper .msg-image {
     background-color: #f4f4f4;
     color: #424242;
-    /*! width and max-width: 70% WIDTH OF TEXT*/
-	max-width: 98%;
-	width: 98%
+    /*! max-width: 70% WIDTH OF TEXT*/
+	max-width: 98%
 }
 
 #container #conversation .row.left-row .msg-wrapper .msg-image.msg-carousel,
@@ -5459,9 +5458,8 @@ html {
 .widget-embedded #container #conversation .row.left-row .msg-wrapper .msg-image {
     background-color: #f4f4f4;
     color: #424242;
-	/*! WIDTH AND MAX-WIDTH TEXT TO 98% */
-    max-width: 98%;
-    width: 98%
+	/*! MAX-WIDTH TEXT TO 98% */
+    max-width: 98%
 }
 
 .widget-embedded #container #conversation .row.left-row .msg-wrapper .msg-image.msg-carousel,
