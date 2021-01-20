@@ -5424,8 +5424,11 @@ html {
     -o-transition: width 0.1s;
     transition: width 0.1s;
     border-radius: 20px;
+    /*! 42710 REMOVED MARGINS FROM BUTTONS. DO THIS AGAIN AND SET WIDTH TO 98% */
+    margin-right: 0px;
+    margin-left: 0px
     padding: 10px 12px;
-    width: 200px;
+    width: 98%;
 }
 .widget-embedded #container #conversation .row .msg-wrapper .action:last-child {
     margin-bottom: 0;
