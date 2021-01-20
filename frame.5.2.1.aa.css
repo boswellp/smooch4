@@ -4605,6 +4605,8 @@ html {
 }
 #container #conversation .row.right-row {
     margin-right: 10px;
+    /*! GREEN ACTION TEXT WIDTH ADDED WIDTH 98%*/
+    width: 98%
 }
 #container #conversation .row.right-row .msg-wrapper {
     flex-direction: row-reverse;
