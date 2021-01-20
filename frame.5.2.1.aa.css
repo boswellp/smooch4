@@ -4534,7 +4534,9 @@ html {
     background-color: #f4f6f8;
     color: #212b36;
     /*! IN 471021 WAS 70% OF WIDTH. CHANGED TO max-width98% width 98% WHAT TO DO FOR 521? */
-    max-width: 224px;
+    /*! max-width: 224px; */
+	max-width: 98%;
+	width: 98%;
 }
 #container #conversation .row.left-row .msg-wrapper .msg-image.msg-carousel,
 #container #conversation .row.left-row .msg-wrapper .msg.msg-carousel {
