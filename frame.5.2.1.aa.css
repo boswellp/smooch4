@@ -4344,6 +4344,8 @@ html {
     position: relative;
     display: flex;
     flex-direction: row;
+    	width: 100%;
+/*! FOR WIDTH OF GREEN ACTION TEXT */
 }
 #container #conversation .row .msg-wrapper .msg,
 #container #conversation .row .msg-wrapper .msg-image {
