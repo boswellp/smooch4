@@ -4361,6 +4361,8 @@ html {
     overflow-wrap: break-word;
     word-break: break-word;
     word-wrap: break-word;
+    	/*! FOR WIDTH OF GREEN ACTION TEXT */
+	width: 100%
 }
 #container #conversation .row .msg-wrapper .msg-image .imageloader,
 #container #conversation .row .msg-wrapper .msg .imageloader {
