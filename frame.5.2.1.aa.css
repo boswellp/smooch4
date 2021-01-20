@@ -4485,6 +4485,9 @@ html {
     border-radius: 20px;
     padding: 10px 12px;
     width: 200px;
+    /*! 4.27.10 REMOVE MARGINS FROM BLUE BUTTONS. BUT NOW HAVE NO MARGINS. SO ADD MARGINS AND LEAVE PADDING AND WIDTH */
+    margin-right: 0px;
+    margin-left: 0px
 }
 #container #conversation .row .msg-wrapper .action:last-child {
     margin-bottom: 0;
